@@ -1,0 +1,66 @@
+@keyframes left {
+  to {
+    left: -100%; } }
+@keyframes right {
+  to {
+    left: 0; } }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.timer {
+  width: 50%;
+  font-size: 3vw;
+  color: red;
+  margin: auto;
+  text-align: center; }
+
+.sliderContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 75vh; }
+  .sliderContainer .imageSlider {
+    position: relative;
+    width: 100vh;
+    height: 75vh;
+    display: flex;
+    overflow: hidden;
+    background-size: 100% 100%; }
+    .sliderContainer .imageSlider [data-slide] {
+      animation-duration: 1s;
+      animation-fill-mode: forwards; }
+    .sliderContainer .imageSlider [data-slide='left'] {
+      animation-name: left; }
+    .sliderContainer .imageSlider [data-slide=''] {
+      animation-name: none; }
+    .sliderContainer .imageSlider [data-slide='right'] {
+      left: -100% !important;
+      animation-name: right !important; }
+    .sliderContainer .imageSlider .slide, .sliderContainer .imageSlider .leftButton, .sliderContainer .imageSlider .rightButton {
+      position: absolute;
+      top: 0;
+      height: 100%; }
+    .sliderContainer .imageSlider .slide {
+      width: 100%;
+      left: 0;
+      background-size: cover;
+      background-position: center; }
+    .sliderContainer .imageSlider .leftButton, .sliderContainer .imageSlider .rightButton {
+      width: 10%;
+      z-index: 11;
+      background-size: 100% 25%;
+      background-repeat: no-repeat;
+      background-position-y: center; }
+    .sliderContainer .imageSlider .leftButton:hover, .sliderContainer .imageSlider .rightButton:hover {
+      background-color: rgba(128, 128, 128, 0.5); }
+    .sliderContainer .imageSlider .leftButton {
+      left: 0;
+      background-image: url("http://s1.iconbird.com/ico/0912/ToolbarIcons/w256h2561346685452ArrowRight.png"); }
+    .sliderContainer .imageSlider .rightButton {
+      right: 0;
+      background-image: url("http://studia-nsi.ru/img/strelkaRight.png"); }
+
+/*# sourceMappingURL=slider.component.css.map */
