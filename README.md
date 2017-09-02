@@ -2,7 +2,7 @@
 
 ## Description 
 
-Simply slider made on Angular as se completely separate component, ready to insert everywhere on the code
+Simply slider made on Angular as the completely separate component, ready to insert everywhere on the code
 
 ## Install 
 
