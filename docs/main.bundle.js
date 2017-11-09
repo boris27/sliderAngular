@@ -13,7 +13,7 @@ webpackEmptyContext.id = "../../../../../src async recursive";
 
 /***/ }),
 
-/***/ "../../../../../src/app/app.component.css":
+/***/ "../../../../../src/app/app.component.sass":
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);

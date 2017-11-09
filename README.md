@@ -10,4 +10,4 @@ Simply slider made on Angular as the completely separate component, ready to ins
 
 ## Use
 
-`npm start`
+`npm run start`
