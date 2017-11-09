@@ -53,7 +53,7 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Component */])({
         selector: 'app-root',
-        template: "<app-slider></app-slider><app-slider></app-slider>",
+        template: "<app-slider></app-slider>",
         styles: [__webpack_require__("../../../../../src/app/app.component.sass")]
     })
 ], AppComponent);
